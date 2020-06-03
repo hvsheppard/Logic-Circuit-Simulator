@@ -31,7 +31,7 @@ public class Wire {
 		setOutput(outTerm);
 	}
 	
-	public void evaluate() {
+	public void energize() {
 		int value = input.getTerminalValue();
 		output.setTerminalValue(value);
 	}

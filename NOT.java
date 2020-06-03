@@ -22,7 +22,7 @@ public class NOT {
 		input.setTerminalValue(value);
 	}
 	
-	public void evaluate() {
+	public void energize() {
 		if ((input.getTerminalValue() == 1))  
 			output.setTerminalValue(0);
 		else

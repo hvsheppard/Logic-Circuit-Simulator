@@ -32,6 +32,6 @@ public abstract class Gate_2_Input {
 		input2.setTerminalValue(value);
 	}
 	
-	public abstract void evaluate();
+	public abstract void energize();
 
 }

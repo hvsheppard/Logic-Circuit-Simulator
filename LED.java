@@ -18,7 +18,7 @@ public class LED {
 		return state;
 	}
 
-	public void evaluate() {
+	public void energize() {
 		if (input.getTerminalValue() == 1)
 			state = "ON";
 		else

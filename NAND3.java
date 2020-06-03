@@ -2,7 +2,7 @@ package Logic;
 
 public class NAND3 extends Gate_3_Input {
 
-	public void evaluate() {
+	public void energize() {
 		if ((input1.getTerminalValue() == 1) 
 			&& (input2.getTerminalValue() == 1)  
 			&& (input3.getTerminalValue() == 1))  

@@ -68,28 +68,28 @@ public class Main4 {
 
 	static void run() {
 		//This is how we evaluate the conditions of the parts - the order is important
-		wire11.evaluate();
-		wire12.evaluate();
-		wire1.evaluate();
-		wire2.evaluate();
-		wire3.evaluate();
-		wire4.evaluate();
-		AND31.evaluate();
-		AND32.evaluate();
-		wire5.evaluate();
-		wire6.evaluate();
-		NOR1.evaluate();
-		wire7.evaluate();
-		NOR2.evaluate();
-		wire8.evaluate();
-		NOR1.evaluate();
-		wire7.evaluate();
-		NOR2.evaluate();
-		wire8.evaluate();
-		wire9.evaluate();
-		wire10.evaluate();
-		Q.evaluate();
-		Q2.evaluate();
+		wire11.energize();
+		wire12.energize();
+		wire1.energize();
+		wire2.energize();
+		wire3.energize();
+		wire4.energize();
+		AND31.energize();
+		AND32.energize();
+		wire5.energize();
+		wire6.energize();
+		NOR1.energize();
+		wire7.energize();
+		NOR2.energize();
+		wire8.energize();
+		NOR1.energize();
+		wire7.energize();
+		NOR2.energize();
+		wire8.energize();
+		wire9.energize();
+		wire10.energize();
+		Q.energize();
+		Q2.energize();
 
 		//This is to display the output
 		System.out.print("K: " + K.getOutput().getTerminalValue());
