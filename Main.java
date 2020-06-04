@@ -1,7 +1,22 @@
 package Logic;
 
 public class Main {
+/*
+        CIRCUIT DIAGRAM
 
+       ____    
+   ---|    \
+      |AND1 |----	
+   ---|____/    |       ____           ____
+                 ------|    \         /    \
+                       |OR1  >-------| LED1 |
+                 ------|____/         \____/
+       ____     |
+   ---|    \    |
+      |AND2 |----	
+   ---|____/
+	 
+*/	
 	//These are the components of the circuit
 	private static AND AND1 = new AND();
 	private static AND AND2 = new AND();
