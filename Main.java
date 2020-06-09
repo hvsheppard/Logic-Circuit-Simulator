@@ -1,19 +1,19 @@
-package Logic;
+package logic;
 
 public class Main {
 /*
         CIRCUIT DIAGRAM
 
        ____    
-   ---|    \
-      |AND1 |----	
-   ---|____/    |       ____           ____
-                 ------|    \         /    \
-                       | OR1 >-------| LED1 |
-       ____      ------|____/         \____/
-   ---|    \    |
-      |AND2 |----	
-   ---|____/
+   1---|    \
+       |AND1 |----1	
+   1---|____/    |       ____           ____
+                  -----1|    \         /    \
+                        | OR1 >1------| LED1 |
+        ____      -----1|____/         \____/
+   1---|    \    |
+       |AND2 |----1
+   1---|____/
 	 
 */	
 	//These are the components of the circuit

@@ -1,4 +1,4 @@
-package Logic;
+package logic;
 
 public class AND3 extends Gate_3_Input {
 
